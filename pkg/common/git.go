@@ -236,7 +236,7 @@ func NewGitCloneExecutor(input NewGitCloneExecutorInput) Executor {
 			return err
 		}
 
-		// At this point we need to know if it's a tag or a branch
+		// At this point we need to know if it's a tag or a branchaa
 		// And the easiest way to do it is duck typing
 		//
 		// If err is nil, it's a tag so let's proceed with that hash like we would if
